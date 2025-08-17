@@ -28,4 +28,4 @@ jobs:
           push: true
           tags: |
             softfocuscombr/maven-node:latest
-            softfocuscombr/maven-node:${{ github.sha }}
+            softfocuscombr/maven-node:${{ github.ref_name }}
